@@ -63,7 +63,7 @@ jQuery(document).ready(function ($) {
 
   let countersAnimated = false;
   $(window).on('scroll', function () {
-    var offsetTop = $('.count').first().offset().top - window.innerHeight + 100;
+    var offsetTop = $('.count').first().offset()?.top - window.innerHeight + 100;
     if (!countersAnimated && $(window).scrollTop() > offsetTop) {
       animateCounters();
       countersAnimated = true;
