@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="description" content="RUtex" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="assets/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/slick-theme.css" />
+  <link rel="stylesheet" href="assets/css/slick.css" />
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <title>Rutex</title>
+</head>
+
+<html>
+
+<body>
+  <header>
+    <div class="container">
+      <div class="header-wrapper">
+        <a href="/">
+          <!-- <img src="assets/images/rutext-logo.svg" alt="rutext-logo"/> -->
+        </a>
+        <div class="mobile-toggle">
+          <img src="assets/images/burger-menu.svg" alt="burger-menu" class="burger-menu" />
+          <img src="assets/images//close-menu.svg" alt="close-menu" class="close-icon" />
+        </div>
+        <ul class="navbar-menu">
+          <li class="active">
+            <a href="about-us.html">Why Reutex</a>
+          </li>
+          <li>
+            <a href="sustanibilty.html">Sustainability</a>
+          </li>
+          <li>
+            <a href="impact.html">Impact</a>
+          </li>
+          <li>
+            <a href="product.html">Products</a>
+          </li>
+          <li>
+            <a href="contact.html"> Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="banner" class="banner" style="background-image: url(assets/images/banner.png);">
+      <div class="banner-content">
+        <h1>Our Story Begins With You</h1>
+      </div>
+    </section>
+
+    <section id="mauquee" class="marquee">
+      <div>Dressing the Future in Sustainable Fabrics</div>
+      <div>Dressing the Future in Sustainable Fabrics</div>
+      <div>Dressing the Future in Sustainable Fabrics</div>
+      <div>Dressing the Future in Sustainable Fabrics</div>
+    </section>
+
+    <section id="about" class="pt-100 pb-50">
+      <div class="container">
+        <div class="row">
+          <div class="about-content text-center">
+            <h2>About Us</h2>
+            <p>The collection aims to create truly circular products through a process that involves traceability and
+              transparency.
+              Each product in the collection comes with a Digital Product Passport through a QR code, providing full
+              transparency of the whole lifecycle of the garment, including information on the manufacturing process,
+              environmental impact, and guidance on repair, reuse, up-cycling, and recycling.</p>
+            <a class="common-btn">know More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="ptb-50">
+      <div class="container">
+        <h2 class="text-center">products</h2>
+        <div class="row custom-mobile-space">
+          <div class="col-xl-3 col-lg-6 col-md-6">
+            <div class="product-content">
+              <div class="image">
+                <img src="assets/images/product1.png" alt="product1">
+              </div>
+
+              <div class="content">
+                <div>
+                  <h3>Loreum Ipsum</h3>
+                  <p>About the product</p>
+                </div>
+                <div class="cost">Cost- 00.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6 col-md-6">
+            <div class="product-content">
+              <div class="image">
+                <img src="assets/images/product2.png" alt="product2">
+              </div>
+
+              <div class="content">
+                <div>
+                  <h3>Loreum Ipsum</h3>
+                  <p>About the product</p>
+                </div>
+                <div class="cost">Cost- 00.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6 col-md-6">
+            <div class="product-content">
+              <div class="image">
+                <img src="assets/images/product3.png" alt="product3">
+              </div>
+
+              <div class="content">
+                <div>
+                  <h3>Loreum Ipsum</h3>
+                  <p>About the product</p>
+                </div>
+                <div class="cost">Cost- 00.00</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-6 col-md-6">
+            <div class="product-content">
+              <div class="image">
+                <img src="assets/images/product4.png" alt="product4">
+              </div>
+
+              <div class="content">
+                <div>
+                  <h3>Loreum Ipsum</h3>
+                  <p>About the product</p>
+                </div>
+                <div class="cost">Cost- 00.00</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <a class="common-btn">shop All</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="impact" class="ptb-50">
+      <div class="container">
+        <div class="text-center">
+          <h2>What is the impact? </h2>
+          <div class="impact-image">
+            <div class="left">
+              <h5 class="mb-4">Calculate Your Re-Tex Impact</h5>
+              <div class="label">Fabric Composition</div>
+              <p class="mb-4">Adjust the percentage of Re-Tex fiber in your t-shirt</p>
+
+              <div class="slider-section">
+                <p>Re-Tex Fiber <span id="retexValue">50%</span></p>
+                <input type="range" id="retexSlider" value="50" min="0" max="100">
+                <p>Conventional Fiber <span id="convValue">50%</span></p>
+              </div>
+
+              <div class="label">Quantity</div>
+              <div class="quantity">
+                <button id="decrease">−</button>
+                <div><span id="qty">1</span> shirt</div>
+                <button id="increase">+</button>
+              </div>
+            </div>
+
+            <div class="right">
+              <div class="impact-box">
+                <h5>Your Impact</h5>
+
+                <div class="impact-details">
+                  <div class="icon">
+                    <img src="assets/images/circle.svg" alt="circle">
+                  </div>
+
+                  <div class="title">
+                    <div class="heading">
+                      Water Saved
+                    </div>
+                    <p>Compared to conventional</p>
+                  </div>
+
+
+                  <div class="impact-count">
+                    <div class="heading waterPercent" id="waterPercent">48%</div>
+                    <p id="waterLiters">1283</p>
+                  </div>
+                </div>
+
+                <div class="impact-details">
+                  <div class="icon">
+                    <img src="assets/images/tir.svg" alt="tir">
+                  </div>
+
+                  <div class="title">
+                    <div class="heading">
+                      CO₂ Reduced
+                    </div>
+                    <p>Compared to conventional</p>
+                  </div>
+
+
+                  <div class="impact-count">
+                    <div class="heading waterPercent" id="co2Percent">35%</div>
+                    <p id="co2Kg">1.9</p>
+                  </div>
+                </div>
+
+                <div class="equivalent-box mt-3">
+                  <p>This is equivalent to:</p>
+                  <div class="equivalent">
+                    <div class="tag">🚿 <span id="showers">20</span> showers</div>
+                    <div class="tag">🚗 <span id="km">15</span> km driven</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <a class="common-btn">Calculate</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="certificate" class="ptb-50">
+      <div class="container">
+        <div class="title-wrapper">
+          <h2 class="text-center">Certifications</h2>
+        </div>
+      </div>
+      <div class="certificate">
+        <div class="slider-item">
+          <img src="./assets/images/image1.png" alt="image1">
+        </div>
+        <div class="slider-item">
+          <img src="./assets/images/image2.png" alt="image2">
+        </div>
+        <div class="slider-item">
+          <img src="./assets/images/image3.png" alt="image3">
+        </div>
+        <div class="slider-item">
+          <img src="./assets/images/image1.png" alt="image4">
+        </div>
+        <div class="slider-item">
+          <img src="./assets/images/image2.png" alt="image5">
+        </div>
+      </div>
+    </section>
+
+    <section id="take-certification" class="ptb-50">
+      <div class="container">
+        <div class="title-wrapper">
+          <h2 class="text-center">Take Action Today</h2>
+        </div>
+
+        <div class="custom-tab">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <button class="nav-link active" id="v-pills-home-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-home" type="button" role="tab" aria-controls="v-pills-home"
+                  aria-selected="true">Home</button>
+                <button class="nav-link" id="v-pills-why-rutex-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-why-rutex" type="button" role="tab" aria-controls="v-pills-why-rutex"
+                  aria-selected="false">Why Rütex 360 </button>
+                <button class="nav-link" id="v-pills-impact-tab" data-bs-toggle="pill" data-bs-target="#v-pills-impact"
+                  type="button" role="tab" aria-controls="v-pills-impact" aria-selected="false">Impact</button>
+                <button class="nav-link" id="v-pills-product-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-product" type="button" role="tab" aria-controls="v-pills-product"
+                  aria-selected="false">Products</button>
+                <button class="nav-link" id="v-pills-sustainability-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-sustainability" type="button" role="tab"
+                  aria-controls="v-pills-sustainability" aria-selected="false">Sustainability</button>
+                <button class="nav-link" id="v-pills-contacts-tab" data-bs-toggle="pill"
+                  data-bs-target="#v-pills-contacts" type="button" role="tab" aria-controls="v-pills-contacts"
+                  aria-selected="false">Contacts</button>
+              </div>
+            </div>
+            <div class="col-md-8">
+              <div class="tab-content" id="v-pills-tabContent">
+                <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                  aria-labelledby="v-pills-home-tab">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="tab-image">
+                        <img src="assets/images/tab-image1.png" alt="tab-image1">
+                      </div>
+
+                    </div>
+                    <div class="col-6">
+                      <div class="tab-image"> <img src="assets/images/tab-image2.png" alt="tab-image2"></div>
+
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-why-rutex" role="tabpanel"
+                  aria-labelledby="v-pills-why-rutex-tab">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="tab-image">
+                        <img src="assets/images/tab-image1.png" alt="tab-image1">
+                      </div>
+
+                    </div>
+                    <div class="col-6">
+                      <div class="tab-image">
+                        <img src="assets/images/tab-image2.png" alt="tab-image2">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-impact" role="tabpanel" aria-labelledby="v-pills-impact-tab">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="tab-image">
+                        <img src="assets/images/tab-image1.png" alt="tab-image1">
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="tab-image">
+                        <img src="assets/images/tab-image2.png" alt="tab-image2">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-product" role="tabpanel" aria-labelledby="v-pills-product-tab">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="tab-image">
+                        <img src="assets/images/tab-image1.png" alt="tab-image1">
+                      </div>
+                    </div>
+                    <div class="col-6">
+                      <div class="tab-image">
+                        <img src="assets/images/tab-image2.png" alt="tab-image2">
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="v-pills-contacts" role="tabpanel" aria-labelledby="v-pills-contacts-tab">
+                  <div class="row">
+                    <div class="col-6">
+                      <div class="tab-image"><img src="assets/images/tab-image1.png" alt="tab-image1"></div>
+                    </div>
+                    <div class="col-6">
+                      <div class="tab-image"><img src="assets/images/tab-image2.png" alt="tab-image2"></div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+  </main>
+
+  <footer id="footer" class="footer ptb-50">
+    <div class="container">
+      <ul class="footer-quick-links">
+        <li>
+          <a href="about-us.html">Why Reutex</a>
+        </li>
+        <li>
+          <a href="sustanibilty.html">Sustainability</a>
+        </li>
+        <li>
+          <a href="impact.html">Impact</a>
+        </li>
+        <li>
+          <a href="product.html">Products</a>
+        </li>
+        <li>
+          <a href="contact.html"> Contact us</a>
+        </li>
+      </ul>
+
+      <div class="single-footer-widget">
+        <ul class="ut_widget_contact">
+          <li class="ut-address">
+            <p>
+              Rütex GmbH Rönneterring 11 D-41068 Mönchengladbach
+            </p>
+          </li>
+          <li class="ut-phone">
+            <a href="tel:49-(0)2161-9530-0">Phone: +49-(0)2161-9530-0</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+  <script src="assets/js/slick.min.js"></script>
+  <script src="assets/js/custom.js"></script>
+</body>
+
+</html>
