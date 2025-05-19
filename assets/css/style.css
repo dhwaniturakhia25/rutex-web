@@ -182,7 +182,7 @@ header .close-icon{display:none;}
   .impact-image{padding:20px;}
 }
 @media(max-width:767px){
-  h1{font-size:40px;}
+  h1{font-size:36px;}
   h2{font-size:30px;margin-bottom:20px;}
   h4{font-size:18px;}
   .pt-100{padding-top:50px;}
@@ -195,7 +195,9 @@ header .close-icon{display:none;}
   .custom-tab .tab-image{height:100%;}
   .product-content .image h4{bottom:10px;left:10px;margin:0;}
   .banner {
-        height: 250px;
+                height: 100%;
+        padding-top: 100px;
+        padding-bottom: 50px;
     }
   .banner-bottom-content{padding:20px 10px;max-width:100%;}
   .banner-bottom-content h1{font-size:25px;}
